@@ -1,0 +1,102 @@
+Project Name : Sales Data Analysis Dashboard
+
+Dataset : Superstore Analysis
+Rows: 9800
+Columns: 18
+
+Data Categories:
+
+1. Order Information:
+- Order ID
+- Order Date
+- Ship Date
+- Ship Mode
+
+2. Customer Information:
+- Customer ID
+- Customer Name
+- Segment
+
+3. Location Information:
+- Country
+- City
+- State
+- Postal Code
+- Region
+
+4. Product Information:
+- Product ID
+- Category
+- Sub-Category
+- Product Name
+
+5. Business Metric:
+- Sales
+
+
+
+Project Goal:
+Analyze sales performance and identify business insights.
+
+Questions:
+1. Which category generates the highest sales?
+2. Which sub-category generates the highest sales?
+3. Which region has the highest sales?
+4. Which states have the highest sales?
+5. Which customers contribute the most revenue?
+6. How do sales change over time?
+7. Which products are top-selling?
+
+
+========
+Data Quality Check
+
+Missing Values:
+- 1 missing value found.
+
+Duplicates:
+- No duplicate values found.
+
+How many unique categories are there ? category column (data-> filter->dropdown)
+3 unique categories:  1) furniture
+                               2) office supplies
+                               3)Technology
+===========
+
+1) which category generates the highest sales?
+Technology generated the highest sales with total revenue of $827,455.873.
+
+Observation: Technology is the highest-performing category in terms of sales and contributes the largest share of  total revenue.
+
+2) Which sub-category generates the highest sales?
+phones generated the highest sales with total revenue of $327,782.45
+
+Observation: The phones sub-category is the top performing sub-category by sales. Since phones belong to the technology category, they contribute significantly to technology being the highest-performing category overall.
+
+3) Which region has the highest sales?
+west region generated the highest sales with total revenue of $710,219.68.
+
+Observation: The west region is the highest-performing region in terms of sales, contributing the largest share of the company's  total revenue. this indicates strong customer demand and business performance in the west region.
+
+4) Which state has the highest sales ?
+California generated the highest sales with total revenue of $446306.4635
+
+Observation: California is the highest-performing sate in terms of sales, followed by new York and Texas. this indicates that these states are major revenue contributors and represent key markets for the business.
+
+5)which customers contribute the most revenue?
+Sean miler generated the highest revenue with total sales of $25,043.05
+
+Observation: Sean miler is the highest revenue-generating customer, followed by tamara chand and Raymond buch. these customers are valuable to the business and contribute significantly to overall sales.
+
+6)how do sales change overtime? - skip issue with grouping
+
+7) which products are top selling?
+The canon imageCLASS 2200 advanced copier is the top-selling product with total sales of $61,599.82
+
+Observation: The canon imageCLASS 2200 advanced copier is generated the highest sales among all products. most of the top-selling products are high-value office equipment, indicating that premium products contribute significantly to the company's overall revenue.
+
+
+Analysis Limitation
+Note:
+Time-series analysis was not completed in Excel due to date-format inconsistencies in the imported dataset. This analysis will be performed during the power bi phase after proper date transformation.
+
