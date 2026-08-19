@@ -2,9 +2,9 @@
 
 ## Project Overview
 
-This project analyzes sales data from the Superstore dataset to identify key sales trends, top-performing categories, regions, states, customers, and products.
+This project analyzes sales data from the Superstore dataset to identify key sales trends and the top-performing categories, regions, states, customers, and products.
 
-The analysis was completed using Microsoft Excel with Pivot Tables, Pivot Charts, and an interactive-style dashboard.
+The analysis was completed using Microsoft Excel with Pivot Tables, Pivot Charts, and an Excel dashboard.
 
 ## Dataset
 
